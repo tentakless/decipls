@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ionic app</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,800&display=swap" rel="stylesheet">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
@@ -16,30 +16,31 @@
 </head>
 
 <body>
-
     <ion-app>
-        <ion-header>
-            <div class="brand_name">D<span class="color">E</span>CIPLS</div>
-        </ion-header>
-        <ion-content>
+        <div class="brand_name">D<span class="color">E</span>CIPLS</div>
+        <div class="circle2"></div>
+        <ion-content style="--background:rgba(0,0,0,0)">
 
             <ion-grid>
                 <ion-row color="primary" justify-content-center>
                     <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
-                        <ion-title>WELCOME</ion-title>
-                        <ion-title>BACK</ion-title>
 
-                        <ion-item>username</ion-item>
-                        <ion-input type="text"></ion-input>
+                        <ion-title>Create</ion-title>
+                        <ion-title>Account</ion-title>
+                        <div class="space"></div>
+                        <ion-item style=--background:rgba(0,0,0,0)>username</ion-item>
+                        <ion-input type=" text"> </ion-input>
+                        <ion-item> email</ion-item>
+                        <ion-input type="email"></ion-input>
                         <ion-item> password</ion-item>
-                        <ion-input type="text"></ion-input>
-                        
+                        <ion-input type="password"></ion-input>
 
-                        <ion-button size="large" shape="round" expand="block">Login</ion-button>
+
+                        <ion-button style="--background:#2B32B2" size="large" shape="round" expand="block">Login
+                        </ion-button>
 
                         <div class="sub_text">
-                            <div class="text1">forgot password</div>
-                            <div class="text2">Don't have a account?!! <span class="color">Create Account</s>
+                            <div class="text2">Already have a account?!! <span class="color">Signup</s>
                             </div>
                         </div>
 
@@ -51,16 +52,6 @@
         </ion-content>
 
     </ion-app>
-
-
-
-
-
-
-
-
-
-
 
 </body>
 
