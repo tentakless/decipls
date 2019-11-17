@@ -19,28 +19,47 @@
     <ion-app>
         <div class="brand_name">D<span class="color">E</span>CIPLS</div>
         <div class="circle2"></div>
-        <ion-content style="--background:rgba(0,0,0,0)">
+        <ion-content padding style="--background:rgba(0,0,0,0)">
 
             <ion-grid>
                 <ion-row color="primary" justify-content-center>
                     <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+                        <div class="space1"></div>
+                        <div class="maintitle>">
+                            <div class="main_text">Create</div>
+                            <div class="main_text">Account</div>
+                        </div>
 
-                        <ion-title>Create</ion-title>
-                        <ion-title>Account</ion-title>
-                        <div class="space"></div>
-                        <ion-item style=--background:rgba(0,0,0,0)>username</ion-item>
-                        <ion-input type=" text"> </ion-input>
-                        <ion-item> email</ion-item>
-                        <ion-input type="email"></ion-input>
-                        <ion-item> password</ion-item>
-                        <ion-input type="password"></ion-input>
+                        <div class="space1"></div>
+                        <form>
+                            <ion-item style=--background:rgba(0,0,0,0)>
+                                <ion-label position="floating">username</ion-label>
+                                <ion-input type="text"></ion-input>
+
+                            </ion-item>
 
 
-                        <ion-button style="--background:#2B32B2" size="large" shape="round" expand="block">Login
-                        </ion-button>
+                            <ion-item style=--background:rgba(0,0,0,0)>
+                                <ion-label class="some" position="floating">Email</ion-label>
+                                <ion-input type="Email"></ion-input>
 
+                            </ion-item>
+
+                            <ion-item style=--background:rgba(0,0,0,0)>
+                                <ion-label position="floating">password</ion-label>
+                                <ion-input type="password"></ion-input>
+
+                            </ion-item>
+
+
+
+                            <div class="space1"></div>
+                            <ion-button type="submit" style="--background:#2B32B2" size="large" shape="round"
+                                expand="block">Login
+                            </ion-button>
+                        </form>
                         <div class="sub_text">
-                            <div class="text2">Already have a account?!! <span class="color">Signup</s>
+                            <div class="text2">Already have a account?!! <span class="color">Sign in</s>
                             </div>
                         </div>
 
